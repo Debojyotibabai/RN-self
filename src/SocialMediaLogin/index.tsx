@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {Button, View} from 'react-native';
-import {googleLogin} from '../utils/sso';
+import {facebookLogin, googleLogin} from '../utils/sso';
 import {GoogleSignin} from '@react-native-google-signin/google-signin';
 
 const SocialMediaLogin = (): React.JSX.Element => {
@@ -15,6 +15,7 @@ const SocialMediaLogin = (): React.JSX.Element => {
     <View
       style={{alignItems: 'center', justifyContent: 'center', height: '100%'}}>
       <Button title="Google Sign-In" onPress={googleLogin} />
+      <Button title="Facebook Sign-In" onPress={facebookLogin} />
     </View>
   );
 };
