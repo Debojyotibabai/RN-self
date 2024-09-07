@@ -8702,6 +8702,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-geolocation-service@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "react-native-geolocation-service@npm:5.3.1"
+  checksum: 9a625c9f87811933491055fd8cbd1ef46f97fbbe0262714ad1d9aa969a8900dcb4abc47e58fe162400a81bcdee79324dfcc8e631862df9a22d59ac84af9acfde
+  languageName: node
+  linkType: hard
+
 "react-native@npm:0.75.2":
   version: 0.75.2
   resolution: "react-native@npm:0.75.2"
@@ -9176,6 +9183,7 @@ __metadata:
     react: 18.3.1
     react-native: 0.75.2
     react-native-fbsdk-next: ^13.0.0
+    react-native-geolocation-service: ^5.3.1
     react-test-renderer: 18.3.1
     typescript: 5.0.4
   languageName: unknown
